@@ -22,7 +22,7 @@ class App extends Component {
         <div id="main">
           {/* Do not remove this main div!! */}
           <button id="click" onClick={() => this.setState({ para: true })}>
-            {this.state.para ? this.fun() : ""}
+            {this.state.para ? this.para() : ""}
           </button>
         </div>
       </>
