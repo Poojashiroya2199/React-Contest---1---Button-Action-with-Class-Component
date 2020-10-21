@@ -6,19 +6,19 @@ class App extends Component {
     super(props);
   }
 
-  handleclick() {
-    return (
-      <p id={para}>
-        Hello, I've learnt to use the full-stack evaluation tool. This makes me
-        so happy
-      </p>
-    );
-  }
   render() {
     return (
       <>
         <div id="main">{/* Do not remove this main div!! */}</div>
-        <button id={click} onClick={handleclick}>
+        <button
+          id="click"
+          onClick={() => (
+            <p id="para">
+              Hello, I've learnt to use the full-stack evaluation tool. This
+              makes me so happy
+            </p>
+          )}
+        >
           hello
         </button>
       </>
