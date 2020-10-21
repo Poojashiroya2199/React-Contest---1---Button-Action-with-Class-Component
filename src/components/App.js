@@ -11,9 +11,9 @@ class App extends Component {
       <>
         <div id="main">{/* Do not remove this main div!! */}</div>
         <button
-          key={this.click}
+          id={this.click}
           onClick={() => (
-            <p key={this.para}>
+            <p id={this.para}>
               Hello, I've learnt to use the full-stack evaluation tool. This
               makes me so happy
             </p>
